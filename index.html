@@ -1,0 +1,743 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="images/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<title>HakkaHut</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Honest Food Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola web design" />
+<script type="applisalonion/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<link href="css/iconeffects.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />	
+<link rel="stylesheet" href="css/swipebox.css">
+<script src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/web-font
+	<link href='//fonts.googleapis.com/css?family=Italianno' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Merriweather+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!-- swipe box js -->
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+	</script>
+<!-- //swipe box js -->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+
+</head>
+<body>
+<!--start-home-->
+		<div class="banner" id="home">
+		<div class="header-bottom wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">
+		     <div class="container">
+			  <div class="fixed-header">
+			      <!--logo-->
+			       <div class="logo">
+                      <a href="index.html"><img src="images/logo.png" width="298" height="76" alt=""/>
+                      <!--<h1>H<span>onest Food</span></h1>--></a>
+					  <p style="margin-top:5px">Indo-Chines & Thai Cuisine</p>
+				   </div>
+					<!--//logo-->
+					<div class="top-menu">
+							<span class="menu"> </span>
+							<nav class="link-effect-4" id="link-effect-4">
+                              <ul>
+								 <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+								<li><a data-hover="About" href="#about" class="scroll">About</a></li>
+								<li><a data-hover="Services" href="#services" class="scroll">Services</a></li>
+								<li><a data-hover="Chefs" href="#team" class="scroll">Chefs</a></li>
+							    <!--<li><a data-hover="Reservation" href="#reservation" class="scroll">Reservation</a></li>-->
+							    <li><a data-hover="Dishes" href="#gallery" class="scroll">Dishes</a></li>
+								<li><a data-hover="Contact" href="#contact" class="scroll">Contact</a></li>
+
+								</ul>
+							</nav>
+							</div>
+							<!-- script-for-menu -->
+								<script>
+									$("span.menu").click(function(){
+										$(".top-menu ul").slideToggle("slow" , function(){
+										});
+									});
+								</script>
+								<!-- script-for-menu -->
+
+				 <div class="clearfix"></div>
+					<script>
+				$(document).ready(function() {
+					 var navoffeset=$(".header-bottom").offset().top;
+					 $(window).scroll(function(){
+						var scrollpos=$(window).scrollTop(); 
+						if(scrollpos >=navoffeset){
+							$(".header-bottom").addClass("fixed");
+						}else{
+							$(".header-bottom").removeClass("fixed");
+						}
+					 });
+					 
+				});
+				</script>
+			 </div>
+		</div>
+	</div>
+		<div class="banner-slider">
+				<div class="callbacks_container">
+					<ul class="rslides" id="slider4">
+					    <li>
+						   <div class="banner-info">
+							      <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Welcome</h3>
+								  <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">TO THE HAKKA HUT</p>
+								     <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/border.png" alt="border"/></div>
+								 <span class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">READY TO BE OPENED</span>
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							    <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">The Real</h3>
+								 <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">SPICY MASALAS</p>
+								  <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/border.png" alt="border"/></div>
+								 <span class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">READY TO BE OPENED</span>
+							  </div>
+						</li>
+						<li>
+						   <div class="banner-info">
+							      <h3 class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Delicious</h3>
+								  <p class="wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">FRESH FOODS</p>
+								   <div class="arrows wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s"><img src="images/border.png" alt="border"/></div>
+								   <span class="wow slideInUpslideInLeft"  data-wow-duration="1s" data-wow-delay=".3s">READY TO BE OPENED</span>
+						   </div>
+					  </li>
+					</ul>
+			  </div>
+		<!--banner Slider starts Here-->
+	  	<script src="js/responsiveslides.min.js"></script>
+			 <script>
+			    // You can also use "$(window).load(function() {"
+			    $(function () {
+			      // Slideshow 4
+			      $("#slider4").responsiveSlides({
+			        auto: true,
+			        pager:true,
+			        nav:false,
+			        speed: 500,
+			        namespace: "callbacks",
+			        before: function () {
+			          $('.events').append("<li>before event fired.</li>");
+			        },
+			        after: function () {
+			          $('.events').append("<li>after event fired.</li>");
+			        }
+			      });
+			
+			    });
+			  </script>
+	      <!--banner Slider starts Here-->
+		 </div>
+
+		 <div class="down"><a class="scroll" href="#services"><img src="images/down.png" alt=""></a></div>
+	</div>
+
+<!--/products-->
+		  <div class="about" id="about">
+		     <div class="container">
+			 <!--/about-section-->
+			   <div class="about-section">
+				<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/s1.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Hakka <span>Soups</span></h4>
+							<a href="soups.html"><p></p></a>
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/s2.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Hakka <span>Appetizers</span></h4>
+							<a href="appetizers.html"><p></p></a>
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+			   <div class="col-md-5 ab-text">
+			             <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Welcome</h3>
+						  <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
+						  <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Hakka Cuisine is the Cooking Style of the Hakka people, who originated in the southeastern Chinese provinces of Guangdong and Fujian, but may also be found in other parts of China and in countries with significant overseas Chinese communities and majority of them moved to India, Nepal, and Bhutan.</p>
+						 <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+						     <a href="soups.html" class="hvr-bounce-to-bottom">Look In</a>
+						  </div>
+					</div>
+					<div class="clearfix"> </div>
+			 </div>
+			  <!--//about-section-->
+			  <!--/about-section2-->
+			   <div class="about-section">
+			        <div class="col-md-5 ab-text two">
+			             <h3 class="tittle wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">About</h3>
+						 <div class="arrows-two wow slideInDown"  data-wow-duration="1s" data-wow-delay=".5s"><img src="images/border.png" alt="border"/></div>
+						  <p class="wow slideInUp"  data-wow-duration="1s" data-wow-delay=".3s">Hakka Hut is Indo-Chinese Cuisine(Hakka Style), Hakka Hut is authentic modern Indo Chinese cuisine and serves Indian Style Hakka Chinese food in heart of Cambridge City, Hakka food defines by Indian spices on Chinese way of cooking.</p>
+						 <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+						     <a href="specials.html" class="hvr-bounce-to-bottom">Look In</a>
+						  </div>
+
+					</div>
+						<div class="col-md-7 ab-left">
+				  <div class="grid">
+			        <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+					<img src="images/s4.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Hakka <span>Specials</span></h4>
+							<a href="specials.html"><p></p></a>
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="h-f  wow slideInRight"  data-wow-duration="1s" data-wow-delay=".2s">
+					<figure class="effect-jazz">
+						<img src="images/s3.jpg" alt="img25"/>
+						<figcaption>
+							<h4>Hakka <span>Party Tray</span></h4>
+							<a href="partytray.html"><p></p></a>
+						</figcaption>			
+					</figure>
+					
+				 </div>
+				 <div class="clearfix"> </div>
+				 </div>
+			   </div>
+					<div class="clearfix"> </div>
+			 </div>
+			  <!--//about-section2-->
+			</div>
+	     </div>
+<!--//products-->
+<!-- service-type-grid -->
+	<div class="service" id="services">
+		<div class="container">
+		    <h3 class="tittle">Our Services</h3>
+			<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+				<div class="inst-grids">
+					<div class="col-md-3 services-gd text-center wow slideInLeft"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a class="hi-icon" href="menu.html"><img src="images/serve2.png" alt=" " /></a>
+						</div>
+						<h4>Dine in</h4>
+						 <!--<p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>-->
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInDown"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a class="hi-icon" href="menu.html"><img src="images/serve1.png" alt=" " /></a>
+						</div>
+						<h4>Take Away</h4>
+						 <!--<p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>-->
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInUp"  data-wow-duration="1s" data-wow-delay=".2s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a class="hi-icon" href="specials.html"><img src="images/serve4.png" alt=" " /></a>
+						</div>
+						<h4>Lunch Combo</h4>
+						 <!--<p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>-->
+					</div>
+					<div class="col-md-3 services-gd text-center wow slideInRight"  data-wow-duration="1s" data-wow-delay=".3s">
+						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+							<a class="hi-icon" href="partytray.html"><img src="images/serve3.png" alt=" " /></a>
+						</div>
+						<h4>Family Combo</h4>
+						 <!--<p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>-->
+					</div>
+					<div class="clearfix"> </div>		
+				</div>
+
+		</div>
+	</div>
+<!-- //service-type-grid -->
+ <!--start-services-->
+	<div class="team-section" id="team">
+	 	  <div class="container">
+		  <h3 class="tittle">Our Chefs</h3>
+		  <div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+	 		<div class="box2">
+	 		   <div class="col-md-3 s-1 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+			   <a>
+	 		   	<div class="view view-fifth">
+                    <img src="images/hakkaavater.png" alt="chef">
+                    <div class="mask">
+                        
+                     </div>
+                   
+				    </div>
+				  </a>
+			<h3>Uploading Soon</h3>
+				</div>
+		<div class="col-md-3 s-2 wow slideInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+		<a>
+	 		   	<div class="view view-fifth">
+                      <img src="images/hakkaavater.png" alt="chef">
+                       <div class="mask">
+                        
+                     </div>
+               
+				    </div>
+				  </a>
+				<h3>Uploading Soon</h3>
+				</div>
+			  <div class="col-md-3 s-3 wow slideInRight" data-wow-duration="1s" data-wow-delay=".3s">
+			  <a>
+	 		   	<div class="view view-fifth">
+                     <img src="images/hakkaavater.png" alt="chef">
+                    <div class="mask">
+                        
+                     </div>
+                  
+				    </div>
+				  </a>
+					<h3>Uploading Soon</h3>
+				</div>
+				
+				<div class="clearfix"></div>
+		     </div>
+	 	    </div>
+	 	</div>
+	<!--end-team-->
+
+<!--start-banner-bottom-->
+   <!--/reviews-->
+	<div id="review" class="reviews">
+			   <div class="col-md-6 test-left-img">
+			   </div>
+				<div class="col-md-6 test-monials">
+					<h3 class="tittle">Testimonials</h3>
+					<div class="arrows-serve test"><img src="images/border.png" alt="border"></div>
+				<!--//screen-gallery-->
+						<div class="sreen-gallery-cursual">
+							 <!-- required-js-files-->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+							        <script>
+							    $(document).ready(function() {
+							      $("#owl-demo").owlCarousel({
+							        items : 1,
+							        lazyLoad : true,
+							        autoPlay : true,
+							        navigation : false,
+							        navigationText :  false,
+							        pagination : true,
+							      });
+							    });
+							    </script>
+								 <!--//required-js-files-->
+						       <div id="owl-demo" class="owl-carousel">
+					                 <div class="item-owl">
+					                		<div class="test-review">
+											   <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"><img src="images/left-quotes.png" alt="">First time here tonight, it was so worth the 30 minute drive. Since moving out of Toronto we have had great difficulty finding good Chinese/Hakka food. We found our spot tonight. Dragon chicken is so delicious and a perfect balance of heat. Hakka chicken was perfect, nice spice to it with a hint of sweet from the vegetables. Sweet and sour garlic chicken was great and the chilli chicken will never let you down. We also had the Manchurian noodles and asked for them to make it spicy for us which they had no problem doing. The service was great and the food was amazing. Portion sizes are large which is perfect because we get to have amazing left overs for a day or 2. Can't wait to drive 30 minutes to eat here again!! <img src="images/right-quotes.png" alt=""></p>
+						                	  <img src="images/co.png" class="img-responsive" alt=""/>
+											  <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Tara Vandermeulen</h5>
+					                	    </div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+										 <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"> <img src="images/left-quotes.png" alt="">Very courteous and knowledgeable staff.  Great recommendations. Serves Halal meat dishes. The potions were really big that  ordered one portion for two and still brought container full of fried rice and dragon chicken..everything from soups to entrees were so tasty. .yumm!!!!!<img src="images/right-quotes.png" alt=""></p>
+						                	<img src="images/co.png" class="img-responsive" alt=""/>
+											 <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Muhammad Akram</h5>
+					                	</div>
+					                </div>
+					                 <div class="item-owl">
+					                	<div class="test-review">
+										     <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"><img src="images/left-quotes.png" alt=""> This place has Indo-Chinese-Thai cuisines. The food here is awesome. The restaurant is well maintained. <img src="images/right-quotes.png" alt=""></p>
+						                	<img src="images/co.png" class="img-responsive" alt=""/>
+											 <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Stefan Thomas</h5>
+					                	</div>
+					                </div>
+				              </div>
+						<!--//screen-gallery-->
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+		</div>
+<!--//reviews-->
+<!--reservation-->
+	<!--<div class="reservation" id="reservation">
+		<div class="container">
+		<div class="reservation-info">
+		  <h3 class="tittle reserve">Make a <br>
+			Reservation</h3>
+			 <div class="arrows-reserve"><img src="images/border.png" alt="border"></div>
+				<div class="book-reservation wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">
+					<form>
+					 <div class="col-md-4 form-left">
+						<label><i class="glyphicon glyphicon-calendar"></i> Date :</label>
+						<input type="date">
+						</div>
+						<div class="col-md-4 form-left">
+							<label><i class="glyphicon glyphicon-user"></i> No.of People :</label>
+							<select class="form-control">
+								<option>1 Person</option>
+								<option>2 People</option>
+								<option>3 People</option>
+								<option>4 People</option>
+								<option>5 People</option>
+								<option>More</option>
+							</select>
+						</div>
+						<div class="col-md-4 form-right">
+							<label><i class="glyphicon glyphicon-time"></i> Time :</label>
+							<input type="time">
+						</div>
+						<div class="clearfix"> </div>
+						<div class="make wow shake" data-wow-duration="1s" data-wow-delay=".5s">
+						  <input type="submit" value="Make a Reservation">
+						</div>
+					</form>
+
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>-->	
+	<!--//reservation-->
+
+<!--Gallery-->
+<div class="gallery" id="gallery">
+	<div class="container">
+		<h3 class="tittle">Dishes</h3>
+		<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+				<div class="gallery-grids">
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="chickendishes.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">Chicken Dishes</h4>
+								<img src="images/g1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p>"Love, like a chicken salad a restaurant has, must be taken with blind faith or it loses its flavor” - Helen Rowland<br> Look in our menu of New Chicken Folavors</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="fishdishes.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">Fish Dishes</h4>
+								<img src="images/g2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p>“The vapour of the boiled fish arose like incense from the shrine of a barbarian idol.” - Nathaniel Hawthorne<br> Look in our menu of New Fish Folavors</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="seafooddishes.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">Sea Food Dishes</h4>
+								<img src="images/c1.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p>“Sea food in the hands of a skilled cook can become an inexhaustible source of gustatory pleasures.” - Jean-Antheleme<br> Look in our menu of New SeaFood Folavors</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						<a href="beefdishes.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">Beef Dishes</h4>
+								<img src="images/c2.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p>"A comfort food would have be braised beef, slow-cooked in a Dutch oven with simple mushrooms, onions and lots of fresh thyme and garlic." - Tyler Florence<br> Look in our menu of New SeaFood Folavors</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated" data-wow-delay=".5s">
+						<a href="ricedishes.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">Rice Dishes</h4>
+								<img src="images/c3.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p>“Eating rice cakes is like chewing on a foam coffee cup, only less filling.” - Dave Barry<br> Look in our menu of New SeaFood Folavors</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated" data-wow-delay=".5s">
+						<a href="chowmeindishes.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">Chowmein Dishes</h4>
+								<img src="images/c4.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<span class="separator"></span>
+										<p>"Eat in Guangzhou, dress in Shanghai, eat and dress in Wuhan.<br> Look in our menu of New SeaFood Folavors</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInRight animated" data-wow-delay=".5s">
+						<a href="vegetariandishes.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">Vegetarian Dishes</h4>
+								<img src="images/g7.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p>“I did not become a vegetarian for my health, I did it for the health of the chickens.” - Isaac Bashevis Singer<br> Look in our menu of New SeaFood Folavors</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6 baner-top wow fadeInLeft animated" data-wow-delay=".5s">
+						<a href="americanchopsuey.html" class="b-link-stripe b-animate-go">
+							<div class="gal-spin-effect vertical ">
+										<h4 style="font-size:40px; color:#c52e02; margin:.3em">American Chopsuey</h4>
+								<img src="images/g8.jpg" alt=" " />
+								<div class="gal-text-box">
+									<div class="info-gal-con">
+										<h4></h4>
+										<span class="separator"></span>
+										<p>"I've not only pursued the American dream, I've achieved it. I suppose we could say the last few years, I've also achieved the American nightmare." - Kenneth Lay</p>
+										<span class="separator"></span>
+										
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+		<div class="arrows-serve"><img src="images/border.png" alt="border"></div>
+							<p class="wel-text wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".4s" style="text-align:center">Our foods may contain nuts or could have come in contact with them. Please inform us of any fod allergies. All applicable TAXES EXTRA. Prices subject to change without prior notice.
+15 CENTS EXTRA FOR TRANSACTION BELOW $15.</p>
+			</div>
+	</div>
+<!-- //gallery -->
+
+  <!--bottom-->
+	    <div class="bottom">
+		<div class="container">
+		       <div class="bottom-top">
+			    <h3 class=" wow slideInDown"  data-wow-duration="1s" data-wow-delay=".3s">Business Hours</h3>
+				   <p style="font-size:20px" class="wow slideInUp" data-wow-duration="1s" data-wow-delay=".5s">We are open by the timings shown below, check us at your convenience</p>
+				   <div class="start wow flipInX"  data-wow-duration="1s" data-wow-delay=".3s">
+                   				   <dl style="color:#fff">
+				     <dd><em>Monday</em> :   11:30 am - 10:00 pm</dd>
+				     <dd><em>Tuesday</em> :   11:30 am - 10:00 pm</dd>
+				     <dd><em>Wednesday</em> :  11:30 am - 10:00 pm</dd>
+				     <dd><em>Thursday</em> :  11:30 am - 10:00 pm</dd>
+				     <dd><em>Friday</em> :  11:30 am - 11:00 pm</dd>
+				     <dd><em>Saturday</em> :  12:00 Noon - 11:00 pm</dd>
+				     <dd><em>Sunday &amp; Holidays</em> :  12:00 Noon - 10:00 pm</dd>
+			     </dl>
+						  </div>
+			   </div>
+		</div>
+	</div>
+
+	 <!--/contact-->
+	 <div class="section-contact" id="contact">
+	    <div class="container">
+		<h3 class="tittle wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s" style="text-align:center">Contact Us</h3>
+		<div class="arrows-serve" style="text-align:center"><img src="images/border.png" alt="border"></div>
+							<p class="wel-text wow fadeInDown"  data-wow-duration=".8s" data-wow-delay=".4s" style="text-align:center">We welcome your comments and suggestions! There are several convenient ways to reach us!</p>
+           <div class="contact-main">
+				    <div class="col-md-6 contact-grid wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".3s">
+													<h5 class="info fadeInDown" data-wow-duration=".8s" data-wow-delay=".4s">Message Us</h5>
+						    <form id="filldetails"  style="margin-top:11%">
+					  <div class="field name-box">
+							<input type="text" id="name" placeholder="Who Are You?" required=""/>
+							<label for="name">Name</label>
+							<span class="ss-icon">check</span>
+					  </div>
+					  
+					  <div class="field email-box">
+							<input type="text" id="email" placeholder="example@email.com" required=""/>
+							<label for="email">Email</label>
+							<span class="ss-icon">check</span>
+					  </div>
+					  
+					  <div class="field phonenum-box">
+							<input type="text" id="email" placeholder="Phone Number" required=""/>
+							<label for="email">Phone</label>
+							<span class="ss-icon">check</span>
+					  </div>
+
+					  <div class="field msg-box">
+							<textarea id="msg" rows="4" placeholder="Your message goes here..." required/ ></textarea>
+							<label for="msg">Message</label>
+							<span class="ss-icon">check</span>
+					  </div>
+						<div class="send wow shake"  data-wow-duration="1s" data-wow-delay=".3s">
+											<input type="submit" value="Send" >
+										</div>
+					 
+			  </form>
+
+					   </div>
+					<div class="col-md-6 contact-in wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".5s">
+						<h4 class="info"></h4>
+						<p class="para1"></p>
+						<div class="con-top" >
+							<h4>Canada</h4>
+								<ul>
+								<li>688 Hespeler Rd,</li> 
+								<li>Cambridge,</li>  
+								<li>ON N3H 5L8,</li> 
+								<li>Canada - 000000</li> 
+								<li>Tel: 519-279-1117</li>
+								<!--<li>Call Centre Time : 7am to 11pm</li>-->
+								<li><a href="mailto:hakkahut.ca@gmail.com">hakkahut.ca@gmail.com</a></li>
+							  </ul>
+						</div>
+                        <!--
+						<div class="con-top two">
+							<h4>Hawaii</h4>
+							<ul>
+								<li>4th Floor dolor sit amet,</li> 
+								<li># Grand Hyatt New York Road,</li>   
+								<li>Opp. adipiscing elit,</li> 
+								<li>Hawaii - 96815</li>
+								<li>Ph:3698521475 </li>
+								<li>Call Centre Time : 7am to 11pm</li>	
+								<li><a href="mailto:info@example.com">mail@example.com</a></li>
+							</ul>								
+						</div>
+                        -->
+					</div>
+					
+						<div class="clearfix"> </div>
+			      </div>
+				   <!--map-->
+				    <div class="map wow fadeInDown" data-wow-duration=".8s" data-wow-delay=".5s">
+					  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5796.968136889482!2d-80.32918!3d43.408712!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b89b1bd454e69%3A0x20e598e9d1044673!2s688+Hespeler+Rd%2C+Cambridge%2C+ON+N3H+5L8%2C+Canada!5e0!3m2!1sen!2sca!4v1465998016242"  frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+				<!--//map-->
+			 </div>
+		</div>
+		<!--//contact-->
+<!--footer-->
+		<div class="footer text-center">
+						<div class="container">
+							<!--logo2-->
+								   <div class="logo2 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+									  <a href="index.html"><img src="images/logo.png" width="298" height="76" alt=""/></a>
+									  <p style="margin-top:5px">Indo-Chines & Thai Cuisine</p>
+								   </div>
+					<!--//logo2-->
+								<a href="single.html" class="flag_tag2">Where to find us?</a>
+									<ul class="social wow slideInDown" data-wow-duration="1s" data-wow-delay=".3s">
+										
+										<li><a href="https://www.facebook.com/hakkahut.ca/" class="fb"> </a></li>
+										<li><a href="https://plus.google.com/104763428209525400807" class="in"> </a></li>
+										
+										<!-- 
+										<li><a href="#" class="tw"></a></li>
+										<li><a href="#" class="dott"></a></li>
+										-->
+										
+										 <div class="clearfix"></div>
+									</ul>
+									<p class="copy-right wow fadeInUp"  data-wow-duration="1s" data-wow-delay=".3s">&copy; 2017. All rights reserved | Design by SG</p>
+
+					 </div>
+	     </div>
+		<!--start-smooth-scrolling-->
+						<script type="text/javascript">
+									$(document).ready(function() {
+										/*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear' 
+								 		};
+										*/
+										
+										$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+								<!--end-smooth-scrolling-->
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
